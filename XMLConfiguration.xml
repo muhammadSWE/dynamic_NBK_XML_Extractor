@@ -1,0 +1,23 @@
+<configuration>
+    <database>
+        <JDBCURL>"jdbc:sqlite:fbnkDB"</JDBCURL>
+    </database>
+    <queries>
+        <query>SELECT * FROM fbnk_Customers</query>
+    </queries>
+
+    <tables>
+        <table name="fbnk_Customers">
+            <columns>
+                <column>Name_EN</column>
+                <column>Name_AR</column>
+                <column>Phone_Number</column>
+                <column>Address_EN</column>
+                <column>Address_AR</column>
+            </columns>
+        </table>
+
+    </tables>
+
+</configuration>
+

@@ -7,16 +7,16 @@
 ## Description
 A Spring Boot application for extracting data from XML configuration files, executing database queries, and generating customizable XML-based reports.
 
-### Features:
+## Features:
 
-*Dynamic Configuration: Define database connections, queries, and report structure directly within XML files.
-*Customizable Queries: Execute arbitrary SQL queries on your database to tailor data extraction.
-*Flexible XML Output: Control the structure and content of your generated XML reports.
-*Spring Boot Integration: Seamlessly leverage the power and conventions of the Spring Boot framework.
+* Dynamic Configuration: Define database connections, queries, and report structure directly within XML files.
+* Customizable Queries: Execute arbitrary SQL queries on your database to tailor data extraction.
+* Flexible XML Output: Control the structure and content of your generated XML reports.
+* Spring Boot Integration: Seamlessly leverage the power and conventions of the Spring Boot framework.
 
-### Technologies Used:
+## Technologies Used:
 
-*Java
-*Spring Boot
-*SQLite
-*JAXB
+* Java
+* Spring Boot
+* SQLite
+* JAXB

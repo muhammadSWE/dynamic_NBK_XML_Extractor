@@ -30,7 +30,7 @@ public class AppController {
      */
     @GetMapping("/generate")
     public ResponseEntity<String> generateXml() throws JAXBException {
-        String filePath = "XMLConfiguration.xml"; // Adjust if needed
+        String filePath = "src/main/resources/XMLConfiguration.xml"; // Adjust if needed
         String xmlOutput = appService.generateXmlOutput(filePath);
 
         return ResponseEntity.ok()

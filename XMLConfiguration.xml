@@ -1,11 +1,8 @@
 <configuration>
-    <database>
-        <JDBCURL>"jdbc:sqlite:fbnkDB"</JDBCURL>
-    </database>
+    <dburl>"jdbc:sqlite:fbnkDB"</dburl>
     <queries>
         <query>SELECT * FROM fbnk_Customers</query>
     </queries>
-
     <tables>
         <table name="fbnk_Customers">
             <columns>
@@ -16,8 +13,5 @@
                 <column>Address_AR</column>
             </columns>
         </table>
-
     </tables>
-
 </configuration>
-

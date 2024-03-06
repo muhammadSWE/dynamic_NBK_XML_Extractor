@@ -1,5 +1,5 @@
 <configuration>
-    <dburl>"jdbc:sqlite:fbnkDB"</dburl>
+    <dburl>jdbc:sqlite:src/main/resources/fbnkDB</dburl>
     <queries>
         <query>SELECT * FROM fbnk_Customers</query>
     </queries>
